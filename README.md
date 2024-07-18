@@ -14,18 +14,18 @@ This repository provides a simple and efficient way to set up a local environmen
 
 ### 1. Create a Virtual Environment
 
-To create a new virtual environment named `jupyter-env` and activate it, use the following commands:
+To create a new virtual environment named `venv` and activate it, use the following commands:
 
 ```bash
-python3 -m venv jupyter-env
-source jupyter-env/bin/activate
+python3 -m venv venv
+source venv/bin/activate
 ```
 
-*Note: You can change `jupyter-env` to any name you prefer, like `project-name`.*
+*Note: You can change `env` to any name you prefer, like `project-name-env`.*
 
 ### 2. Install Requirements
 
-With the virtual environment activated (you'll notice your terminal prompt starts with `(jupyter-env)`), install the required packages using the `requirements.txt` file. This file contains all the necessary dependencies to run Jupyter Notebook locally.
+With the virtual environment activated (you'll notice your terminal prompt starts with `(venv)`), install the required packages using the `requirements.txt` file. This file contains all the necessary dependencies to run Jupyter Notebook locally.
 
 To install the requirements, run:
 
